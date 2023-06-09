@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    background-color: cornflowerblue;
+    color: black;
+}
+
+thead tr{
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: green;
+    color: white;
+}
+
+article p.diferencia {
+    background-color: background;
+    color: black;
+}
+
+.botones {
+    display: inline;
+    text-decoration: none;
+    font-family: cursive;
+}

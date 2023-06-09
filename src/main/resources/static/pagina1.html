@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Esta es la primera pagina de techshop -->
+<html>
+    <head>
+        <title>EL ERIZO FELIZ</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>  
+        <header class="header">          
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">EL ERIZO FELIZ</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina2.html">Siguiente &DoubleLongRightArrow;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina7.html">&DoubleLongLeftArrow; Atras</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina4.html">Tipos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina5.html">Cuidados</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina6.html">Recomendaciones</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina7.html">About Me</a></li>
+                </ul>                     
+            </nav>
+        </header>
+        <aside>
+            <a name="inicio"></a>
+            <h1>Formulario</h1>
+            <a class="botones" href="#final">Ir al final de la pagina</a>
+            <hr>
+        </aside>
+        <section>
+            <h2>Formulario para envio de información</h2>
+            <hr>
+            <form action="/usuario/registro" method="post">
+                Nombre:<input type="text" name="username" value="" size="15" /><br/>
+                Apeliidos:<input type="text" name="lastname" value="" size="15" /><br/>
+                Correo electronico:<input type="email" name="correo" value="" size="15" /><br/>
+                <input type="submit" value="Registro" />
+            </form>
+        </section>
+        <footer>
+            <a class="botones" href="#inicio">Ir al inicio de la pagina</a>
+            <p>Derechos Reservados &COPY; 2023</p>
+        </footer>
+        <a name="final"></a>
+    </body>
+</html>
